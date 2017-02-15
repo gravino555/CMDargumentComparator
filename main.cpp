@@ -42,7 +42,7 @@ int main( int argc, char *argv[] )
     cout << "\nCommand-line arguments: \n" << endl;
     for( count = 1; count < argc; count++ )
          cout << "  argv[" << count << "]   " << argv[count] << "\n";
-         cout << endl; // this is to show both arguments inputted within the command line (I.E fujitsu michael mich, where fujitsu is the name of the exe and is inputted in argv[0], michael argv[1],... thus the reason why i start the count at 1, to not count for the name of the exe.
+         cout << endl; // this is to show both arguments inputted within the command line (I.E *program* michael mich, where *program* is the name of the exe and is inputted in argv[0], michael argv[1],... thus the reason why i start the count at 1, to not count for the name of the exe.
 
     string string1(argv[1]);
     string string2(argv[2]); // cnverting the arguments to strings (since they are chars to begin with
